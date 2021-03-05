@@ -1,0 +1,298 @@
+*
+{
+    box-sizing: border-box;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    
+}
+.container
+{
+    width: 500px;
+    margin: auto; 
+}
+.title_logo
+{
+    color: red;
+    font-family: Coming 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+/* utilities for all pages */
+.red_fixed
+{
+   background-color: red;
+   border: solid white 2px;
+}
+.btn
+{
+    display: inline-block;
+    padding: 3px;
+    margin:5px 0px;
+    background: black;
+    color: rgb(255, 229, 80);
+    cursor: pointer;
+    font-size: 8pt;
+}
+.btn:hover
+{
+    background: white;
+    color: red;
+}
+
+/* start header */
+header
+{
+    display: flex;
+    flex-direction: column;
+    font-size:8pt;
+}
+header nav 
+{
+    display:flex;
+    flex-direction: column;  
+}
+header nav #login
+{
+    
+    text-transform: uppercase;
+    padding: 10px;
+    border: solid 1px red;
+    color: white;
+    margin-right: 90px;
+}
+header nav ul li 
+{
+    margin: 3px;
+    padding: 3px;
+    text-transform: uppercase;    
+}
+a
+{
+    color: white;
+}
+/* navtwo */
+li
+{
+     border: solid 1px red;
+     color:white;
+     padding: 3px;
+     border-radius: 5px;
+     margin: 3px;
+     cursor: pointer; 
+     font-size:8pt;
+}
+/*showcase */
+.image
+{
+   background: url("portfolio3.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20vh
+}
+/* footer */
+footer
+{
+    background:#333;
+    height: 20vh;
+  
+}
+footer ul 
+{
+   display: flex;
+   justify-content: space-around;
+}
+footer ul li
+{
+    margin: 10px;
+}
+footer ul div
+{
+    margin-top: 30px;
+}
+.imageFooter
+{
+    background: url("html5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 7vh;
+    width: 7vh; 
+    
+}
+footer ul li:hover
+{
+    background-color: #111;
+}
+
+/* sub footer */
+.sub_footer
+{
+    background: rgb(0, 0, 0,0.9);
+    color:white;
+    font-size:xx-small;
+    font-family: cursive;
+    text-align: center;
+}
+span
+{
+   color: red;
+}
+
+/* Start social media */
+
+.fa-instagram 
+{
+  text-align: center;
+  border-radius: 40px;
+  color: white;
+  background: #555;
+  cursor: pointer;
+}
+.fa-facebook-square
+{
+  border-radius: 40px;
+  background: #555;
+  cursor: pointer;
+  color:white;
+}
+
+.fab
+{
+    padding:8px;
+    margin: 3px;
+    
+}
+.fab:hover
+{
+    background: red;
+    color: white;
+}
+/* End social media */
+
+/* End Home Page  */
+
+/* Start section about me */
+.showcase
+{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
+}
+.showcase_content p
+{
+    font-size: 10pt;
+}
+.showcase_content h2
+{
+    
+    font-size: x-small;
+}
+.showcase .imageAbout
+{
+    background: url("aboutme.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25vh;
+    height:25vh;
+    
+}
+/* End section about me */
+
+/* Start Unit */
+.showcase .imageUnit1
+{
+    background: url("unit1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vh;
+    height:25vh;
+}
+
+.showcase .imageUnit2
+{
+    background: url("unit2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vh;
+    height:25vh;
+}
+
+.showcase .imageUnit3
+{
+    background: url("unit3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25vh;
+    height:25vh;
+}
+
+.showcase .imageUnit8
+{
+    background: url("unit8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25vh;
+    height:25vh;
+} 
+
+.showcase .imageUnit10
+{
+    background: url("unit10.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vh;
+    height:15vh;
+}
+.showcase .imageUnit11
+{
+    background: url("unit11.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vh;
+    height:15vh;
+}
+.showcase .imageUnit12
+{
+    background: url("unit12.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vh;
+    height:25vh;
+}
+.showcase .imageUnit13
+{
+    background: url("unit13.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vh;
+    height:25vh;
+}
+
+.showcase .wirralMet
+{
+    background: url("wirralmet.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vh;
+    height:25vh;
+}
+/* End Unit */
+
+ 
